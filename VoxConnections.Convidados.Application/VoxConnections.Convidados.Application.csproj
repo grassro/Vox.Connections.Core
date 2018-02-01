@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Config\Services\**" />
+    <EmbeddedResource Remove="Config\Services\**" />
+    <None Remove="Config\Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Config\configAPI.json">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Vox.Platform.Abstraction" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Authetication.Data\VoxConnections.Convidados.Data.csproj" />
+    <ProjectReference Include="..\VoxConnections.Convidados.Core\VoxConnections.Convidados.Core.csproj" />
+  </ItemGroup>
+
+</Project>

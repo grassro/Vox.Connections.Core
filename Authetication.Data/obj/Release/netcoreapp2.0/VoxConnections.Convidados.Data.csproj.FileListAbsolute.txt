@@ -1,0 +1,15 @@
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Data.deps.json
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Data.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Data.pdb
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Protocols.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Core.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Core.pdb
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Protocols.xml
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Data.csprojResolveAssemblyReference.cache
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Data.csproj.CoreCompileInputs.cache
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Data.AssemblyInfoInputs.cache
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Data.AssemblyInfo.cs
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Data.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Authetication.Data\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Data.pdb

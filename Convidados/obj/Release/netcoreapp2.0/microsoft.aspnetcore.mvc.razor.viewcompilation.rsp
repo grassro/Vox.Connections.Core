@@ -1,0 +1,5 @@
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=VoxConnections.Convidados.WebApi
+--content-root=C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados
+--file=

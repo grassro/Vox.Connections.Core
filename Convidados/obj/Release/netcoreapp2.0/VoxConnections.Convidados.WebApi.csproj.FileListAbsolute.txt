@@ -1,0 +1,17 @@
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\bin\Release\netcoreapp2.0\VoxConnections.Convidados.WebApi.deps.json
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\bin\Release\netcoreapp2.0\VoxConnections.Convidados.WebApi.runtimeconfig.json
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\bin\Release\netcoreapp2.0\VoxConnections.Convidados.WebApi.runtimeconfig.dev.json
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\bin\Release\netcoreapp2.0\VoxConnections.Convidados.WebApi.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\bin\Release\netcoreapp2.0\VoxConnections.Convidados.WebApi.pdb
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Application.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Core.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Data.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Data.pdb
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Application.pdb
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Core.pdb
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\obj\Release\netcoreapp2.0\VoxConnections.Convidados.WebApi.csprojResolveAssemblyReference.cache
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\obj\Release\netcoreapp2.0\VoxConnections.Convidados.WebApi.csproj.CoreCompileInputs.cache
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\obj\Release\netcoreapp2.0\VoxConnections.Convidados.WebApi.AssemblyInfoInputs.cache
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\obj\Release\netcoreapp2.0\VoxConnections.Convidados.WebApi.AssemblyInfo.cs
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\obj\Release\netcoreapp2.0\VoxConnections.Convidados.WebApi.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\Convidados\obj\Release\netcoreapp2.0\VoxConnections.Convidados.WebApi.pdb

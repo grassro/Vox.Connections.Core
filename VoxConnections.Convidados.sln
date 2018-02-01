@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoxConnections.Convidados.Data", "Authetication.Data\VoxConnections.Convidados.Data.csproj", "{7A69A30F-1703-41C4-AD21-5B76CBAF5B0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoxConnections.Convidados.WebApi", "Convidados\VoxConnections.Convidados.WebApi.csproj", "{FC01F096-7785-47FD-83E3-7F8F60641471}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoxConnections.Convidados.Application", "VoxConnections.Convidados.Application\VoxConnections.Convidados.Application.csproj", "{D549927B-D68F-4CB6-B3AF-2FB74862C358}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoxConnections.Convidados.Core", "VoxConnections.Convidados.Core\VoxConnections.Convidados.Core.csproj", "{53888E89-26EA-4633-BE9A-16EE4858D91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoxConnections.Oportunidades.WebApi", "VoxConnections.Vagas.WebApi\VoxConnections.Oportunidades.WebApi.csproj", "{906CCA71-0969-4439-A401-4B4DB46DF1BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A69A30F-1703-41C4-AD21-5B76CBAF5B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A69A30F-1703-41C4-AD21-5B76CBAF5B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A69A30F-1703-41C4-AD21-5B76CBAF5B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A69A30F-1703-41C4-AD21-5B76CBAF5B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC01F096-7785-47FD-83E3-7F8F60641471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC01F096-7785-47FD-83E3-7F8F60641471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC01F096-7785-47FD-83E3-7F8F60641471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC01F096-7785-47FD-83E3-7F8F60641471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D549927B-D68F-4CB6-B3AF-2FB74862C358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D549927B-D68F-4CB6-B3AF-2FB74862C358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D549927B-D68F-4CB6-B3AF-2FB74862C358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D549927B-D68F-4CB6-B3AF-2FB74862C358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53888E89-26EA-4633-BE9A-16EE4858D91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53888E89-26EA-4633-BE9A-16EE4858D91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53888E89-26EA-4633-BE9A-16EE4858D91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53888E89-26EA-4633-BE9A-16EE4858D91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{906CCA71-0969-4439-A401-4B4DB46DF1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906CCA71-0969-4439-A401-4B4DB46DF1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906CCA71-0969-4439-A401-4B4DB46DF1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906CCA71-0969-4439-A401-4B4DB46DF1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {873133AF-7BB3-4D66-AB60-7823D7961E03}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://nineteensoftwares.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Convidados\\VoxConnections.Convidados.WebApi.csproj
+		SccProjectName1 = Convidados
+		SccLocalPath1 = Convidados
+		SccProjectUniqueName2 = Authetication.Data\\VoxConnections.Convidados.Data.csproj
+		SccProjectName2 = Authetication.Data
+		SccLocalPath2 = Authetication.Data
+		SccProjectUniqueName3 = VoxConnections.Convidados.Application\\VoxConnections.Convidados.Application.csproj
+		SccProjectName3 = VoxConnections.Convidados.Application
+		SccLocalPath3 = VoxConnections.Convidados.Application
+		SccProjectUniqueName4 = VoxConnections.Convidados.Core\\VoxConnections.Convidados.Core.csproj
+		SccProjectName4 = VoxConnections.Convidados.Core
+		SccLocalPath4 = VoxConnections.Convidados.Core
+		SccProjectUniqueName5 = VoxConnections.Vagas.WebApi\\VoxConnections.Oportunidades.WebApi.csproj
+		SccProjectName5 = VoxConnections.Vagas.WebApi
+		SccLocalPath5 = VoxConnections.Vagas.WebApi
+	EndGlobalSection
+EndGlobal

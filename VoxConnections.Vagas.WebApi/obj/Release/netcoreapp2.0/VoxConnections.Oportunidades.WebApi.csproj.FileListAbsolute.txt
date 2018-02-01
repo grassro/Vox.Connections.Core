@@ -1,0 +1,17 @@
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Release\netcoreapp2.0\VoxConnections.Oportunidades.WebApi.deps.json
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Release\netcoreapp2.0\VoxConnections.Oportunidades.WebApi.runtimeconfig.json
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Release\netcoreapp2.0\VoxConnections.Oportunidades.WebApi.runtimeconfig.dev.json
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Release\netcoreapp2.0\VoxConnections.Oportunidades.WebApi.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Release\netcoreapp2.0\VoxConnections.Oportunidades.WebApi.pdb
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Application.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Core.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Data.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Application.pdb
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Core.pdb
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Data.pdb
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\obj\Release\netcoreapp2.0\VoxConnections.Oportunidades.WebApi.csprojResolveAssemblyReference.cache
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\obj\Release\netcoreapp2.0\VoxConnections.Oportunidades.WebApi.csproj.CoreCompileInputs.cache
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\obj\Release\netcoreapp2.0\VoxConnections.Oportunidades.WebApi.AssemblyInfoInputs.cache
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\obj\Release\netcoreapp2.0\VoxConnections.Oportunidades.WebApi.AssemblyInfo.cs
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\obj\Release\netcoreapp2.0\VoxConnections.Oportunidades.WebApi.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\obj\Release\netcoreapp2.0\VoxConnections.Oportunidades.WebApi.pdb

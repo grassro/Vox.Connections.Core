@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VoxConnections.Oportunidades.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:VoxConnections.Oportunidades.WebApi.Controllers.VagasController">
+            <summary>
+            Controller para cadastro de Vagas
+            </summary>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Controllers.VagasController.#ctor(VoxConnections.Convidados.Application.IVagasService,VoxConnections.Convidados.Application.IVagasCandidaturaService)">
+            <summary>
+            Implementação da Service
+            </summary>
+            <param name="service"></param>
+            <param name="serviceCandidatura"></param>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Controllers.VagasController.Criar(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Cria Vagas
+            </summary>
+            <param name="vaga"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Controllers.VagasController.Buscar(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Método que retorna as Vagas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Controllers.VagasController.Detalhe(System.Int32)">
+            <summary>
+            Método que retorna o detalhe da Vaga
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Controllers.VagasController.Listar">
+            <summary>
+            Método que lista todas as Vagas da Timelime
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Controllers.VagasController.Timeline(System.String)">
+            <summary>
+            Método que lista todas as Vagas da Timelime
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Controllers.VagasController.Candidatar(VoxConnections.Convidados.Core.VagasCandidatura)">
+            <summary>
+            Método que lista todos os Candidatos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Controllers.VagasController.Encerrar(System.Int32)">
+            <summary>
+            Método que lista todos os Candidatos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:VoxConnections.Oportunidades.WebApi.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Startup.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="P:VoxConnections.Oportunidades.WebApi.Startup.Configuration">
+            <summary>
+            Configuration
+            </summary>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Startup.ConfigureJwtAuthService(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Método ConfigureJwtAuthService
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>

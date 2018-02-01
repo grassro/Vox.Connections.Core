@@ -1,0 +1,8 @@
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Debug\netcoreapp2.0\VoxConnections.Vagas.WebApi.deps.json
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Debug\netcoreapp2.0\VoxConnections.Vagas.WebApi.runtimeconfig.json
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Debug\netcoreapp2.0\VoxConnections.Vagas.WebApi.runtimeconfig.dev.json
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\bin\Debug\netcoreapp2.0\VoxConnections.Vagas.WebApi.dll
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\obj\Debug\netcoreapp2.0\VoxConnections.Vagas.WebApi.csprojResolveAssemblyReference.cache
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\obj\Debug\netcoreapp2.0\VoxConnections.Vagas.WebApi.csproj.CoreCompileInputs.cache
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\obj\Debug\netcoreapp2.0\VoxConnections.Vagas.WebApi.AssemblyInfoInputs.cache
+C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\obj\Debug\netcoreapp2.0\VoxConnections.Vagas.WebApi.AssemblyInfo.cs
