@@ -43,6 +43,14 @@ namespace VoxConnections.Oportunidades.WebApi
             Configuration = builder.Build();
         }
 
+
+        //public Startup(IConfiguration configuration)
+        //{
+        //    Configuration = configuration;
+        //}
+
+        //public IConfiguration Configuration { get; }
+
         /// <summary>
         /// Configuration
         /// </summary>
@@ -85,7 +93,7 @@ namespace VoxConnections.Oportunidades.WebApi
                 });
             });
 
-          
+
             //Faz a Dependency Injection do contexto
             services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("VoxDBConnection")));
 
@@ -151,7 +159,7 @@ namespace VoxConnections.Oportunidades.WebApi
                        .AllowAnyHeader();
             }));
 
-           
+
         }
 
         /// <summary>
@@ -164,10 +172,10 @@ namespace VoxConnections.Oportunidades.WebApi
 
             app.UseAuthentication();
 
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            //if (env.IsDevelopment())
+            //{
+            app.UseDeveloperExceptionPage();
+            //}
 
             //Faz a implementação do CORS
             app.UseCors("AllowAllOrigins");

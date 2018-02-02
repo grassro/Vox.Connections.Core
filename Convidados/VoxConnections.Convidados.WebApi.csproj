@@ -13,7 +13,8 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netcoreapp2.0\VoxConnections.Convidados.WebApi.xml</DocumentationFile>
+    <DocumentationFile>wwwroot\VoxConnections.Convidados.WebApi.xml</DocumentationFile>
+    <OutputPath>wwwroot\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

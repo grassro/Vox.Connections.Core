@@ -1,7 +1,7 @@
 ﻿[
   {
     "name": "email/Enviar",
-    "host": "http://localhost:63690",
+    "host": "http://localhost:63691",
     "token": "123",
     "named": false,
     "stub": false

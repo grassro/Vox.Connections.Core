@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Vagas.WebApi\obj\Release\netcoreapp2.0\PubTmp\Out\" />
+  <IisApp path="C:\Github\Vox.Connections.Core\VoxConnections.Vagas.WebApi\obj\Release\netcoreapp2.0\PubTmp\Out\" />
 </sitemanifest>

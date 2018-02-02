@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="api-oportunidades" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\TFS\\VoxConnections_Core\\VoxConnections_Core\\VoxConnections\\VoxConnections\.Vagas\.WebApi\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
+  <parameter name="IIS Web Application Name" description="" value="vox-vagas" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Github\\Vox\.Connections\.Core\\VoxConnections\.Vagas\.WebApi\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

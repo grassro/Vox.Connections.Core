@@ -3421,11 +3421,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\TFS\\VoxConnections_Core\\VoxConnections_Core\\Authetication.Data\\VoxConnections.Convidados.Data.csproj",
+      "projectUniqueName": "C:\\Github\\Vox.Connections.Core\\Authetication.Data\\VoxConnections.Convidados.Data.csproj",
       "projectName": "VoxConnections.Convidados.Data",
-      "projectPath": "C:\\TFS\\VoxConnections_Core\\VoxConnections_Core\\Authetication.Data\\VoxConnections.Convidados.Data.csproj",
+      "projectPath": "C:\\Github\\Vox.Connections.Core\\Authetication.Data\\VoxConnections.Convidados.Data.csproj",
       "packagesPath": "C:\\Users\\Rodrigo Campos\\.nuget\\packages\\",
-      "outputPath": "C:\\TFS\\VoxConnections_Core\\VoxConnections_Core\\Authetication.Data\\obj\\",
+      "outputPath": "C:\\Github\\Vox.Connections.Core\\Authetication.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3444,8 +3444,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\TFS\\VoxConnections_Core\\VoxConnections_Core\\VoxConnections.Convidados.Core\\VoxConnections.Convidados.Core.csproj": {
-              "projectPath": "C:\\TFS\\VoxConnections_Core\\VoxConnections_Core\\VoxConnections.Convidados.Core\\VoxConnections.Convidados.Core.csproj"
+            "C:\\Github\\Vox.Connections.Core\\VoxConnections.Convidados.Core\\VoxConnections.Convidados.Core.csproj": {
+              "projectPath": "C:\\Github\\Vox.Connections.Core\\VoxConnections.Convidados.Core\\VoxConnections.Convidados.Core.csproj"
             }
           }
         }

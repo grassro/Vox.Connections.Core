@@ -3341,11 +3341,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\TFS\\VoxConnections_Core\\VoxConnections_Core\\VoxConnections.Convidados.Core\\VoxConnections.Convidados.Core.csproj",
+      "projectUniqueName": "C:\\Github\\Vox.Connections.Core\\VoxConnections.Convidados.Core\\VoxConnections.Convidados.Core.csproj",
       "projectName": "VoxConnections.Convidados.Core",
-      "projectPath": "C:\\TFS\\VoxConnections_Core\\VoxConnections_Core\\VoxConnections.Convidados.Core\\VoxConnections.Convidados.Core.csproj",
+      "projectPath": "C:\\Github\\Vox.Connections.Core\\VoxConnections.Convidados.Core\\VoxConnections.Convidados.Core.csproj",
       "packagesPath": "C:\\Users\\Rodrigo Campos\\.nuget\\packages\\",
-      "outputPath": "C:\\TFS\\VoxConnections_Core\\VoxConnections_Core\\VoxConnections.Convidados.Core\\obj\\",
+      "outputPath": "C:\\Github\\Vox.Connections.Core\\VoxConnections.Convidados.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

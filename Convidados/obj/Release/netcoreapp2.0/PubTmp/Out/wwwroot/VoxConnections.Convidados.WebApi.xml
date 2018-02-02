@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VoxConnections.Convidados.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Convidados.Context.VoxContextFactory">
+            <summary>
+            ContextFactory para criação do DB
+            </summary>
+        </member>
+        <member name="M:Convidados.Context.VoxContextFactory.CreateDbContext(System.String[])">
+            <summary>
+            Classe onde estanciará o contexto existente, utilizada para fazer o Code First
+            </summary>
+            <param name="args"></param>
+            <returns>Retona o contexto</returns>
+        </member>
+        <member name="T:Convidados.Controllers.CandidatoController">
+            <summary>
+            Controller para cadastro de Candidato
+            </summary>
+        </member>
+        <member name="M:Convidados.Controllers.CandidatoController.#ctor(VoxConnections.Convidados.Application.Services.ICandidatoService)">
+            <summary>
+            Implementação da Service
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:Convidados.Controllers.CandidatoController.Criar(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Cria um novo Candidato
+            </summary>
+            <param name="candidato"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Convidados.Controllers.CandidatoController.Alterar(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Método que finaliza o cadastro do Candidato
+            </summary>
+            <param name="candidato"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Convidados.Controllers.CandidatoController.Detalhe(System.Int32)">
+            <summary>
+            Método que retorna o detalhe do candidato
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Convidados.Controllers.CandidatoController.Listar">
+            <summary>
+            Método que lista todos os Candidatos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Convidados.Controllers.CandidatoController.Buscar(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Método que busca todos os Candidatos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Convidados.Controllers.UsuarioController">
+            <summary>
+            Controller para cadastro de Candidato
+            </summary>
+        </member>
+        <member name="M:Convidados.Controllers.UsuarioController.#ctor(VoxConnections.Convidados.Application.Services.IUsuarioService)">
+            <summary>
+            Implementação da Service
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:Convidados.Controllers.UsuarioController.Criar(System.Collections.Generic.List{VoxConnections.Convidados.Core.Usuario})">
+            <summary>
+            Cria Usuario e envia email
+            </summary>
+            <param name="usuarios"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Convidados.Controllers.UsuarioController.Buscar(System.String)">
+            <summary>
+            Método que retorna o Usuario
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Convidados.Program">
+            <summary>
+            Classe Program
+            </summary>
+        </member>
+        <member name="M:Convidados.Program.Main(System.String[])">
+            <summary>
+            Método Main
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Convidados.Program.BuildWebHost(System.String[])">
+            <summary>
+            BuildWebHost
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Convidados.Startup">
+            <summary>
+            Startup Class
+            </summary>
+        </member>
+        <member name="M:Convidados.Startup.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Startup
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="P:Convidados.Startup.Configuration">
+            <summary>
+            Configuration
+            </summary>
+        </member>
+        <member name="M:Convidados.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Convidados.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="M:Convidados.Startup.ConfigureJwtAuthService(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Método ConfigureJwtAuthService
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:VoxConnections.Convidados.WebApi.Controllers.GestorController">
+            <summary>
+            Controller para cadastro de Gestor
+            </summary>
+        </member>
+        <member name="M:VoxConnections.Convidados.WebApi.Controllers.GestorController.#ctor(VoxConnections.Convidados.Application.IGestorService)">
+            <summary>
+            Implementação da Service
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:VoxConnections.Convidados.WebApi.Controllers.GestorController.Criar(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Cria um novo Gestor
+            </summary>
+            <param name="gestor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VoxConnections.Convidados.WebApi.Controllers.GestorController.Alterar(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Método que finaliza o cadastro do Gestor
+            </summary>
+            <param name="gestor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VoxConnections.Convidados.WebApi.Controllers.GestorController.Detalhe(System.Int32)">
+            <summary>
+            Método que retorna o detalhe do Gestor
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VoxConnections.Convidados.WebApi.Controllers.GestorController.Listar">
+            <summary>
+            Método que lista todos os Gestores
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:VoxConnections.Convidados.WebApi.Controllers.HeadhunterController">
+            <summary>
+            Controller para cadastro de Headhunter
+            </summary>
+            
+        </member>
+        <member name="M:VoxConnections.Convidados.WebApi.Controllers.HeadhunterController.#ctor(VoxConnections.Convidados.Application.IHeadhunterService)">
+            <summary>
+            Implementação da Service
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:VoxConnections.Convidados.WebApi.Controllers.HeadhunterController.Criar(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Cria um novo Headhunter
+            </summary>
+            <param name="headhunter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VoxConnections.Convidados.WebApi.Controllers.HeadhunterController.Alterar(VoxConnections.Convidados.Core.Headhunter)">
+            <summary>
+            Método que finaliza o cadastro do Headhunter
+            </summary>
+            <param name="headhunter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VoxConnections.Convidados.WebApi.Controllers.HeadhunterController.Detalhe(System.Int32)">
+            <summary>
+            Método que retorna o detalhe do Headhunter
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VoxConnections.Convidados.WebApi.Controllers.HeadhunterController.Listar">
+            <summary>
+            Método que lista todos os Headhunters
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

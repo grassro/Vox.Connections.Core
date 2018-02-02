@@ -1,8 +1,8 @@
 ﻿[
   {
     "name": "email/Enviar",
-    //"host": "http://localhost:63690",
-    "host": "http://voxapiemail.azurewebsites.net",
+    "host": "http://localhost:63690",
+    //"host": "http://voxapiemail.azurewebsites.net",
     "token": "123",
     "named": false,
     "stub": false

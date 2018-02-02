@@ -60,6 +60,24 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="T:VoxConnections.Oportunidades.WebApi.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:VoxConnections.Oportunidades.WebApi.Program.BuildWebHost(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
         <member name="T:VoxConnections.Oportunidades.WebApi.Startup">
             <summary>
             

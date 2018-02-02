@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace VoxConnections.Convidados.Core.Migrations
 {
-    public partial class _Initial : Migration
+    public partial class _initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -22,21 +22,6 @@ namespace VoxConnections.Convidados.Core.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_tb_Curriculo", x => x.IdCurriculo);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "tb_Idioma_Vaga",
-                columns: table => new
-                {
-                    IdIdioma = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    CodigoIdioma = table.Column<int>(nullable: false),
-                    NivelIdioma = table.Column<string>(nullable: true),
-                    NomeIdioma = table.Column<string>(nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_tb_Idioma_Vaga", x => x.IdIdioma);
                 });
 
             migrationBuilder.CreateTable(
@@ -62,6 +47,7 @@ namespace VoxConnections.Convidados.Core.Migrations
                     IdCandidato = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     AreaAtuacao = table.Column<string>(nullable: true),
+                    AreaExecutiva = table.Column<string>(nullable: true),
                     AreaInteresse = table.Column<string>(nullable: true),
                     Ativo = table.Column<bool>(nullable: false),
                     Celular = table.Column<string>(nullable: true),
@@ -69,11 +55,14 @@ namespace VoxConnections.Convidados.Core.Migrations
                     DataNascimento = table.Column<DateTime>(nullable: true),
                     Email = table.Column<string>(nullable: true),
                     Empregado = table.Column<bool>(nullable: false),
+                    Empresa = table.Column<string>(nullable: true),
                     Esfera = table.Column<string>(nullable: true),
                     Estado = table.Column<string>(nullable: true),
+                    Formacao = table.Column<string>(nullable: true),
                     IdCurriculo = table.Column<int>(nullable: false),
-                    IdIdioma = table.Column<int>(nullable: false),
                     IdUsuario = table.Column<Guid>(nullable: false),
+                    Link = table.Column<string>(nullable: true),
+                    Linkedin = table.Column<string>(nullable: true),
                     NivelEscolaridade = table.Column<string>(nullable: true),
                     NivelFuncao = table.Column<string>(nullable: true),
                     Nome = table.Column<string>(nullable: true)
@@ -102,6 +91,7 @@ namespace VoxConnections.Convidados.Core.Migrations
                     IdGestor = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     AreaAtuacao = table.Column<string>(nullable: true),
+                    AreaExecutiva = table.Column<string>(nullable: true),
                     AreaInteresse = table.Column<string>(nullable: true),
                     Ativo = table.Column<bool>(nullable: false),
                     Celular = table.Column<string>(nullable: true),
@@ -109,11 +99,14 @@ namespace VoxConnections.Convidados.Core.Migrations
                     DataNascimento = table.Column<DateTime>(nullable: true),
                     Email = table.Column<string>(nullable: true),
                     Empregado = table.Column<bool>(nullable: false),
+                    Empresa = table.Column<string>(nullable: true),
                     Esfera = table.Column<string>(nullable: true),
                     Estado = table.Column<string>(nullable: true),
+                    Formacao = table.Column<string>(nullable: true),
                     IdCurriculo = table.Column<int>(nullable: false),
-                    IdIdioma = table.Column<int>(nullable: false),
                     IdUsuario = table.Column<Guid>(nullable: false),
+                    Link = table.Column<string>(nullable: true),
+                    Linkedin = table.Column<string>(nullable: true),
                     NivelEscolaridade = table.Column<string>(nullable: true),
                     NivelFuncao = table.Column<string>(nullable: true),
                     Nome = table.Column<string>(nullable: true)
@@ -160,6 +153,48 @@ namespace VoxConnections.Convidados.Core.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "tb_Idioma_Candidato",
+                columns: table => new
+                {
+                    IdIdioma = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    IdCandidato = table.Column<int>(nullable: false),
+                    NivelIdioma = table.Column<string>(nullable: true),
+                    NomeIdioma = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_tb_Idioma_Candidato", x => x.IdIdioma);
+                    table.ForeignKey(
+                        name: "FK_tb_Idioma_Candidato_tb_Candidato_IdCandidato",
+                        column: x => x.IdCandidato,
+                        principalTable: "tb_Candidato",
+                        principalColumn: "IdCandidato",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "tb_Idioma_Gestor",
+                columns: table => new
+                {
+                    IdIdioma = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    IdGestor = table.Column<int>(nullable: false),
+                    NivelIdioma = table.Column<string>(nullable: true),
+                    NomeIdioma = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_tb_Idioma_Gestor", x => x.IdIdioma);
+                    table.ForeignKey(
+                        name: "FK_tb_Idioma_Gestor_tb_Gestor_IdGestor",
+                        column: x => x.IdGestor,
+                        principalTable: "tb_Gestor",
+                        principalColumn: "IdGestor",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "tb_Vagas",
                 columns: table => new
                 {
@@ -168,8 +203,9 @@ namespace VoxConnections.Convidados.Core.Migrations
                     AreaAtuacao = table.Column<string>(nullable: true),
                     Ativo = table.Column<bool>(nullable: false),
                     Cidade = table.Column<string>(nullable: true),
+                    Data = table.Column<DateTime>(nullable: false),
                     Descricao = table.Column<string>(nullable: true),
-                    HeadhunterIdHeadhunter = table.Column<int>(nullable: true),
+                    IdHeadhunter = table.Column<int>(nullable: false),
                     NivelEscolaridade = table.Column<string>(nullable: true),
                     NivelFuncao = table.Column<string>(nullable: true),
                     TipoContratacao = table.Column<string>(nullable: true),
@@ -180,11 +216,11 @@ namespace VoxConnections.Convidados.Core.Migrations
                 {
                     table.PrimaryKey("PK_tb_Vagas", x => x.IdVaga);
                     table.ForeignKey(
-                        name: "FK_tb_Vagas_tb_Headhunter_HeadhunterIdHeadhunter",
-                        column: x => x.HeadhunterIdHeadhunter,
+                        name: "FK_tb_Vagas_tb_Headhunter_IdHeadhunter",
+                        column: x => x.IdHeadhunter,
                         principalTable: "tb_Headhunter",
                         principalColumn: "IdHeadhunter",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -215,39 +251,24 @@ namespace VoxConnections.Convidados.Core.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "tb_Idioma",
+                name: "tb_Idioma_Vaga",
                 columns: table => new
                 {
                     IdIdioma = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    CandidatoIdCandidato = table.Column<int>(nullable: true),
-                    CodigoIdioma = table.Column<int>(nullable: false),
-                    GestorIdGestor = table.Column<int>(nullable: true),
+                    IdVaga = table.Column<int>(nullable: false),
                     NivelIdioma = table.Column<string>(nullable: true),
-                    NomeIdioma = table.Column<string>(nullable: true),
-                    VagasIdVaga = table.Column<int>(nullable: true)
+                    NomeIdioma = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_tb_Idioma", x => x.IdIdioma);
+                    table.PrimaryKey("PK_tb_Idioma_Vaga", x => x.IdIdioma);
                     table.ForeignKey(
-                        name: "FK_tb_Idioma_tb_Candidato_CandidatoIdCandidato",
-                        column: x => x.CandidatoIdCandidato,
-                        principalTable: "tb_Candidato",
-                        principalColumn: "IdCandidato",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_tb_Idioma_tb_Gestor_GestorIdGestor",
-                        column: x => x.GestorIdGestor,
-                        principalTable: "tb_Gestor",
-                        principalColumn: "IdGestor",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_tb_Idioma_tb_Vagas_VagasIdVaga",
-                        column: x => x.VagasIdVaga,
+                        name: "FK_tb_Idioma_Vaga_tb_Vagas_IdVaga",
+                        column: x => x.IdVaga,
                         principalTable: "tb_Vagas",
                         principalColumn: "IdVaga",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -286,24 +307,24 @@ namespace VoxConnections.Convidados.Core.Migrations
                 column: "IdUsuario");
 
             migrationBuilder.CreateIndex(
-                name: "IX_tb_Idioma_CandidatoIdCandidato",
-                table: "tb_Idioma",
-                column: "CandidatoIdCandidato");
+                name: "IX_tb_Idioma_Candidato_IdCandidato",
+                table: "tb_Idioma_Candidato",
+                column: "IdCandidato");
 
             migrationBuilder.CreateIndex(
-                name: "IX_tb_Idioma_GestorIdGestor",
-                table: "tb_Idioma",
-                column: "GestorIdGestor");
+                name: "IX_tb_Idioma_Gestor_IdGestor",
+                table: "tb_Idioma_Gestor",
+                column: "IdGestor");
 
             migrationBuilder.CreateIndex(
-                name: "IX_tb_Idioma_VagasIdVaga",
-                table: "tb_Idioma",
-                column: "VagasIdVaga");
+                name: "IX_tb_Idioma_Vaga_IdVaga",
+                table: "tb_Idioma_Vaga",
+                column: "IdVaga");
 
             migrationBuilder.CreateIndex(
-                name: "IX_tb_Vagas_HeadhunterIdHeadhunter",
+                name: "IX_tb_Vagas_IdHeadhunter",
                 table: "tb_Vagas",
-                column: "HeadhunterIdHeadhunter");
+                column: "IdHeadhunter");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -312,7 +333,10 @@ namespace VoxConnections.Convidados.Core.Migrations
                 name: "tb_Candidatura_Vagas");
 
             migrationBuilder.DropTable(
-                name: "tb_Idioma");
+                name: "tb_Idioma_Candidato");
+
+            migrationBuilder.DropTable(
+                name: "tb_Idioma_Gestor");
 
             migrationBuilder.DropTable(
                 name: "tb_Idioma_Vaga");

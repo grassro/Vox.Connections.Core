@@ -25,3 +25,12 @@ C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections.Convidados.Core\ob
 C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections.Convidados.Core\obj\Debug\netcoreapp2.0\VoxConnections.Convidados.Core.AssemblyInfo.cs
 C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections.Convidados.Core\obj\Debug\netcoreapp2.0\VoxConnections.Convidados.Core.dll
 C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections.Convidados.Core\obj\Debug\netcoreapp2.0\VoxConnections.Convidados.Core.pdb
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Core\bin\Debug\netcoreapp2.0\VoxConnections.Convidados.Core.deps.json
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Core\bin\Debug\netcoreapp2.0\VoxConnections.Convidados.Core.dll
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Core\bin\Debug\netcoreapp2.0\VoxConnections.Convidados.Core.pdb
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Core\obj\Debug\netcoreapp2.0\VoxConnections.Convidados.Core.csprojResolveAssemblyReference.cache
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Core\obj\Debug\netcoreapp2.0\VoxConnections.Convidados.Core.csproj.CoreCompileInputs.cache
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Core\obj\Debug\netcoreapp2.0\VoxConnections.Convidados.Core.AssemblyInfoInputs.cache
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Core\obj\Debug\netcoreapp2.0\VoxConnections.Convidados.Core.AssemblyInfo.cs
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Core\obj\Debug\netcoreapp2.0\VoxConnections.Convidados.Core.dll
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Core\obj\Debug\netcoreapp2.0\VoxConnections.Convidados.Core.pdb

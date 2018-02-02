@@ -11,3 +11,16 @@ C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Con
 C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Convidados.Application\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Application.AssemblyInfo.cs
 C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Convidados.Application\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Application.dll
 C:\TFS\VoxConnections_Core\VoxConnections_Core\VoxConnections\VoxConnections.Convidados.Application\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Application.pdb
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Application\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Application.deps.json
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Application\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Application.dll
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Application\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Application.pdb
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Application\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Core.dll
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Application\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Data.dll
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Application\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Data.pdb
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Application\bin\Release\netcoreapp2.0\VoxConnections.Convidados.Core.pdb
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Application\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Application.csprojResolveAssemblyReference.cache
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Application\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Application.csproj.CoreCompileInputs.cache
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Application\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Application.AssemblyInfoInputs.cache
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Application\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Application.AssemblyInfo.cs
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Application\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Application.dll
+C:\Github\Vox.Connections.Core\VoxConnections.Convidados.Application\obj\Release\netcoreapp2.0\VoxConnections.Convidados.Application.pdb

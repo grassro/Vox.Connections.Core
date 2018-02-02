@@ -11,8 +11,8 @@ using VoxConnections.Convidados.Core;
 namespace VoxConnections.Convidados.Core.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20180131012025__19_5")]
-    partial class _19_5
+    [Migration("20180202005010__initial")]
+    partial class _initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -28,6 +28,8 @@ namespace VoxConnections.Convidados.Core.Migrations
 
                     b.Property<string>("AreaAtuacao");
 
+                    b.Property<string>("AreaExecutiva");
+
                     b.Property<string>("AreaInteresse");
 
                     b.Property<bool>("Ativo");
@@ -42,13 +44,21 @@ namespace VoxConnections.Convidados.Core.Migrations
 
                     b.Property<bool>("Empregado");
 
+                    b.Property<string>("Empresa");
+
                     b.Property<string>("Esfera");
 
                     b.Property<string>("Estado");
 
+                    b.Property<string>("Formacao");
+
                     b.Property<int>("IdCurriculo");
 
                     b.Property<Guid>("IdUsuario");
+
+                    b.Property<string>("Link");
+
+                    b.Property<string>("Linkedin");
 
                     b.Property<string>("NivelEscolaridade");
 
@@ -88,6 +98,8 @@ namespace VoxConnections.Convidados.Core.Migrations
 
                     b.Property<string>("AreaAtuacao");
 
+                    b.Property<string>("AreaExecutiva");
+
                     b.Property<string>("AreaInteresse");
 
                     b.Property<bool>("Ativo");
@@ -102,13 +114,21 @@ namespace VoxConnections.Convidados.Core.Migrations
 
                     b.Property<bool>("Empregado");
 
+                    b.Property<string>("Empresa");
+
                     b.Property<string>("Esfera");
 
                     b.Property<string>("Estado");
 
+                    b.Property<string>("Formacao");
+
                     b.Property<int>("IdCurriculo");
 
                     b.Property<Guid>("IdUsuario");
+
+                    b.Property<string>("Link");
+
+                    b.Property<string>("Linkedin");
 
                     b.Property<string>("NivelEscolaridade");
 
@@ -313,7 +333,7 @@ namespace VoxConnections.Convidados.Core.Migrations
 
             modelBuilder.Entity("VoxConnections.Convidados.Core.IdiomaCandidato", b =>
                 {
-                    b.HasOne("VoxConnections.Convidados.Core.Candidato", "Candidato")
+                    b.HasOne("VoxConnections.Convidados.Core.Candidato")
                         .WithMany("Idiomas")
                         .HasForeignKey("IdCandidato")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -321,7 +341,7 @@ namespace VoxConnections.Convidados.Core.Migrations
 
             modelBuilder.Entity("VoxConnections.Convidados.Core.IdiomaGestor", b =>
                 {
-                    b.HasOne("VoxConnections.Convidados.Core.Gestor", "Gestor")
+                    b.HasOne("VoxConnections.Convidados.Core.Gestor")
                         .WithMany("Idiomas")
                         .HasForeignKey("IdGestor")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -329,7 +349,7 @@ namespace VoxConnections.Convidados.Core.Migrations
 
             modelBuilder.Entity("VoxConnections.Convidados.Core.IdiomaVaga", b =>
                 {
-                    b.HasOne("VoxConnections.Convidados.Core.Vagas", "Vagas")
+                    b.HasOne("VoxConnections.Convidados.Core.Vagas")
                         .WithMany("Idiomas")
                         .HasForeignKey("IdVaga")
                         .OnDelete(DeleteBehavior.Cascade);

@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>VoxConnections.Oportunidades.WebApi</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>api-oportunidades - Web Deploy</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>vox-vagas - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
